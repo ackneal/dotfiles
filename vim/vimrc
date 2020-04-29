@@ -47,6 +47,11 @@ au BufNewFile,BufRead *.php,*.json,*.js
         \ set softtabstop=4 |
         \ set shiftwidth=4
 
+au BufNewFile,BufRead *.sh
+        \ set tabstop=2 |
+        \ set softtabstop=2 |
+        \ set shiftwidth=2
+
 " netrw
 let g:netrw_banner=0
 let g:netrw_liststyle=3
