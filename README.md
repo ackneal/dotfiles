@@ -1,6 +1,6 @@
 # dotfiles
 
-You Know, just a dotfiles
+You Know, just the dotfiles
 
 ### usage
 ```sh
