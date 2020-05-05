@@ -19,7 +19,7 @@ ls -s ~/.dotfiles/vim/vimrc ~/.vimrc
 * use [vim-plug](https://github.com/junegunn/vim-plug#installation) to manage plugins
   * [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
   * [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)
-  * [scrooloose/syntastic](https://github.com/scrooloose/syntastic)
+  * [dense-analysis/ale](https://github.com/dense-analysis/ale)
   * [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
   * [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
   * [vim-airline/vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
