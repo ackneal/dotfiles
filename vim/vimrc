@@ -11,7 +11,7 @@ call plug#end()
 set number
 set autoindent
 set list
-set listchars=trail:·
+set listchars=tab:\ \ ,trail:·
 set cursorline
 set expandtab
 set history=100
@@ -35,6 +35,10 @@ set smartcase
 set foldmethod=indent
 set foldlevel=99
 nnoremap <space> za <CR>
+
+
+au BufNewFile,BufRead *.go
+        \ set noexpandtab
 
 au BufNewFile,BufRead *.py
         \ set tabstop=4 |
@@ -90,5 +94,6 @@ let g:AutoPairsFlyMode = 1
 " ale
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'go': ['goimports'],
 \}
 let g:ale_fix_on_save = 1
