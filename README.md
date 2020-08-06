@@ -13,7 +13,7 @@ echo "source \$HOME/.dotfiles/zsh/bootstrap.sh" >> ~/.zshrc
 
 ### vim
 ```sh
-ls -s ~/.dotfiles/vim/vimrc ~/.vimrc
+ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
 ```
 * more comfortable on netrw
 * use [vim-plug](https://github.com/junegunn/vim-plug#installation) to manage plugins
