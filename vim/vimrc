@@ -5,6 +5,7 @@ Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 " basic
@@ -97,3 +98,7 @@ let g:ale_fixers = {
 \   'go': ['goimports'],
 \}
 let g:ale_fix_on_save = 1
+
+" gutentags
+set statusline+=%{gutentags#statusline()}
+let g:gutentags_cache_dir = expand('~/.cache/tags')
