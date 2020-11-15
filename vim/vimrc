@@ -16,6 +16,7 @@ set listchars=tab:\ \ ,trail:·
 set cursorline
 set expandtab
 set history=100
+set noswapfile
 
 nnoremap <silent> <C-h> :bp <CR>
 nnoremap <silent> <C-l> :bn <CR>
