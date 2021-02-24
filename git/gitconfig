@@ -3,6 +3,7 @@
         name = ackneal
 [core]
         editor = vim
+        excludesfile = ~/.gitignore
 [alias]
         ci = commit
         st = status
