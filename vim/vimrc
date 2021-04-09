@@ -95,10 +95,10 @@ let g:AutoPairsFlyMode = 1
 
 " ale
 let g:ale_fixers = {
-\   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'go': ['goimports'],
-\   'python': ['autopep8', 'isort'],
-\}
+  \ '*': ['remove_trailing_lines', 'trim_whitespace'],
+  \ 'go': ['goimports'],
+  \ 'python': ['autopep8', 'isort']
+\ }
 let g:ale_fix_on_save = 1
 
 " gutentags
