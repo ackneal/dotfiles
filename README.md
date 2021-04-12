@@ -24,3 +24,4 @@ ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
   * [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
   * [vim-airline/vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
   * [ludovicchabant/vim-gutentags](https://github.com/ludovicchabant/vim-gutentags)
+  * [junegunn/fzf](https://github.com/junegunn/fzf)
