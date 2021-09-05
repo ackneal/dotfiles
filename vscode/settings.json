@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#c7c7c7",
+        "terminalCursor.foreground": "#c7c7c7"
+    },
+    "vim.foldfix": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<space>"],
+            "after": ["z", "a"]
+        }
+    ]
+}
