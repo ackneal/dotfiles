@@ -11,5 +11,7 @@
             "before": ["<space>"],
             "after": ["z", "a"]
         }
-    ]
+    ],
+    "terminal.integrated.copyOnSelection": true,
+    "workbench.startupEditor": "None"
 }
