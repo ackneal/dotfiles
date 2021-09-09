@@ -6,6 +6,7 @@
     },
     "vim.foldfix": true,
     "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<space>"],
@@ -13,5 +14,6 @@
         }
     ],
     "terminal.integrated.copyOnSelection": true,
-    "workbench.startupEditor": "None"
+    "workbench.startupEditor": "none",
+    "dateTime.customFormat": "YYYY-MM-DD HH:mm:ss"
 }
